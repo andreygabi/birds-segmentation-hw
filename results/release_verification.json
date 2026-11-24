@@ -1,0 +1,20 @@
+{
+  "public_clone_commit": "03077e15155dc4f1812e23c0d2a56e5f06b4a984",
+  "weights_downloaded_and_sha256_verified": [
+    "best.pt",
+    "best.onnx"
+  ],
+  "input_images": 3,
+  "includes_grayscale": true,
+  "ground_truth_available": false,
+  "output_same_relative_stems": true,
+  "output_original_dimensions": true,
+  "output_mode": "L",
+  "output_values": [
+    0,
+    255
+  ],
+  "torch_onnx_different_pixels": 0,
+  "unit_tests_passed": 4,
+  "imagenet_cache_present": false
+}

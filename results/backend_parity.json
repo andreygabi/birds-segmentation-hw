@@ -1,0 +1,7 @@
+{
+  "images": 1406,
+  "images_with_different_iou": 2,
+  "max_image_iou_difference": 5.191287800887512e-05,
+  "mean_image_iou_torch": 0.8290200437451175,
+  "mean_image_iou_onnx": 0.8290200986421211
+}

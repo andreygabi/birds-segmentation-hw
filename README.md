@@ -91,6 +91,8 @@ python train.py --config configs/02_dice_256.yaml --data-root data --runs-dir ru
 
 ## Файлы и проверки
 
+Проверено из публичного клона: скачивание обоих файлов релиза с проверкой SHA256, загрузка без ImageNet-кеша, предсказания PyTorch и ONNX для трёх изображений без GT, включая одноканальное. Проверены исходные размеры, имена и значения PNG. Результат: [release_verification.json](results/release_verification.json).
+
 - `src/model.py` — собственные DoubleConv, UpBlock и UNet.
 - `src/data.py` — пары, чтение, letterbox, синхронные преобразования.
 - `src/metrics.py` — функция потерь, восстановление размера, IoU.

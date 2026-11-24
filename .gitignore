@@ -3,7 +3,7 @@
 data/
 runs/
 weights/
-predictions/
+predictions*/
 __pycache__/
 .DS_Store
 *.pyc
