@@ -1,0 +1,156 @@
+{
+  "device": "CPU",
+  "processor": "arm",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "torch": "2.8.0",
+  "onnxruntime": "1.23.2",
+  "dtype": "float32",
+  "intra_op_threads": 6,
+  "inter_op_threads": 1,
+  "warmup_passes": 2,
+  "repeats": 3,
+  "timed": "Forward only; preloaded normalized tensors. No I/O, preprocessing or postprocessing.",
+  "keys": [
+    "001.Black_footed_Albatross/Black_Footed_Albatross_0003_796136",
+    "001.Black_footed_Albatross/Black_Footed_Albatross_0016_796067",
+    "001.Black_footed_Albatross/Black_Footed_Albatross_0037_796120",
+    "001.Black_footed_Albatross/Black_Footed_Albatross_0038_212",
+    "001.Black_footed_Albatross/Black_Footed_Albatross_0056_796078",
+    "001.Black_footed_Albatross/Black_Footed_Albatross_0061_796082",
+    "001.Black_footed_Albatross/Black_Footed_Albatross_0074_59",
+    "001.Black_footed_Albatross/Black_Footed_Albatross_0077_796114",
+    "002.Laysan_Albatross/Laysan_Albatross_0002_1027",
+    "002.Laysan_Albatross/Laysan_Albatross_0004_930",
+    "002.Laysan_Albatross/Laysan_Albatross_0006_702",
+    "002.Laysan_Albatross/Laysan_Albatross_0035_876",
+    "002.Laysan_Albatross/Laysan_Albatross_0055_570",
+    "002.Laysan_Albatross/Laysan_Albatross_0076_671",
+    "002.Laysan_Albatross/Laysan_Albatross_0093_725",
+    "003.Sooty_Albatross/Sooty_Albatross_0031_1066",
+    "003.Sooty_Albatross/Sooty_Albatross_0033_1128",
+    "003.Sooty_Albatross/Sooty_Albatross_0038_1065",
+    "003.Sooty_Albatross/Sooty_Albatross_0048_1130",
+    "003.Sooty_Albatross/Sooty_Albatross_0050_796351",
+    "003.Sooty_Albatross/Sooty_Albatross_0055_1160",
+    "003.Sooty_Albatross/Sooty_Albatross_0064_796343",
+    "004.Groove_billed_Ani/Groove_Billed_Ani_0002_1670",
+    "004.Groove_billed_Ani/Groove_Billed_Ani_0005_1750",
+    "004.Groove_billed_Ani/Groove_Billed_Ani_0019_1585",
+    "004.Groove_billed_Ani/Groove_Billed_Ani_0051_1650",
+    "004.Groove_billed_Ani/Groove_Billed_Ani_0060_1505",
+    "004.Groove_billed_Ani/Groove_Billed_Ani_0074_1730",
+    "004.Groove_billed_Ani/Groove_Billed_Ani_0088_1678",
+    "005.Crested_Auklet/Crested_Auklet_0010_794907",
+    "005.Crested_Auklet/Crested_Auklet_0044_1825",
+    "005.Crested_Auklet/Crested_Auklet_0062_794968",
+    "005.Crested_Auklet/Crested_Auklet_0067_785249",
+    "005.Crested_Auklet/Crested_Auklet_0074_794949",
+    "005.Crested_Auklet/Crested_Auklet_0077_785257",
+    "006.Least_Auklet/Least_Auklet_0007_795123",
+    "006.Least_Auklet/Least_Auklet_0015_795065",
+    "006.Least_Auklet/Least_Auklet_0027_795091",
+    "006.Least_Auklet/Least_Auklet_0052_795088",
+    "006.Least_Auklet/Least_Auklet_0063_795134",
+    "007.Parakeet_Auklet/Parakeet_Auklet_0019_795987",
+    "007.Parakeet_Auklet/Parakeet_Auklet_0034_795994",
+    "007.Parakeet_Auklet/Parakeet_Auklet_0043_795948",
+    "007.Parakeet_Auklet/Parakeet_Auklet_0058_795942",
+    "007.Parakeet_Auklet/Parakeet_Auklet_0059_795973",
+    "007.Parakeet_Auklet/Parakeet_Auklet_0064_795954",
+    "008.Rhinoceros_Auklet/Rhinoceros_Auklet_0003_797535",
+    "008.Rhinoceros_Auklet/Rhinoceros_Auklet_0023_797501",
+    "008.Rhinoceros_Auklet/Rhinoceros_Auklet_0024_797529",
+    "008.Rhinoceros_Auklet/Rhinoceros_Auklet_0028_2056",
+    "008.Rhinoceros_Auklet/Rhinoceros_Auklet_0033_2169",
+    "009.Brewer_Blackbird/Brewer_Blackbird_0010_2269",
+    "009.Brewer_Blackbird/Brewer_Blackbird_0012_2691",
+    "009.Brewer_Blackbird/Brewer_Blackbird_0016_2225",
+    "009.Brewer_Blackbird/Brewer_Blackbird_0080_2234",
+    "009.Brewer_Blackbird/Brewer_Blackbird_0095_2610",
+    "009.Brewer_Blackbird/Brewer_Blackbird_0097_2322",
+    "009.Brewer_Blackbird/Brewer_Blackbird_0103_2273",
+    "009.Brewer_Blackbird/Brewer_Blackbird_0104_2230",
+    "009.Brewer_Blackbird/Brewer_Blackbird_0111_2613",
+    "010.Red_winged_Blackbird/Red_Winged_Blackbird_0020_4050",
+    "010.Red_winged_Blackbird/Red_Winged_Blackbird_0024_4180",
+    "010.Red_winged_Blackbird/Red_Winged_Blackbird_0032_4004",
+    "010.Red_winged_Blackbird/Red_Winged_Blackbird_0045_4526"
+  ],
+  "max_abs_logit_error": 7.104873657226562e-05,
+  "changed_mask_pixels": 0,
+  "compared_mask_pixels": 31610523,
+  "rows": [
+    {
+      "backend": "torch",
+      "batch_size": 1,
+      "images": 64,
+      "median_seconds": 3.224898291984573,
+      "images_per_second": 19.845587117916512,
+      "timings_seconds": [
+        3.1869856659905054,
+        3.224898291984573,
+        3.305259416985791
+      ]
+    },
+    {
+      "backend": "onnx",
+      "batch_size": 1,
+      "images": 64,
+      "median_seconds": 1.8345330840093084,
+      "images_per_second": 34.88626100987518,
+      "timings_seconds": [
+        1.8530522910004947,
+        1.8345330840093084,
+        1.8302163329790346
+      ]
+    },
+    {
+      "backend": "torch",
+      "batch_size": 4,
+      "images": 64,
+      "median_seconds": 3.9422337090072688,
+      "images_per_second": 16.234451005218673,
+      "timings_seconds": [
+        3.9422337090072688,
+        3.95320712501416,
+        3.9317774169903714
+      ]
+    },
+    {
+      "backend": "onnx",
+      "batch_size": 4,
+      "images": 64,
+      "median_seconds": 2.4458117090107407,
+      "images_per_second": 26.167181947904783,
+      "timings_seconds": [
+        2.4452572079899255,
+        2.4593265840085223,
+        2.4458117090107407
+      ]
+    },
+    {
+      "backend": "torch",
+      "batch_size": 8,
+      "images": 64,
+      "median_seconds": 3.960141374991508,
+      "images_per_second": 16.161039200308156,
+      "timings_seconds": [
+        3.960141374991508,
+        3.9506395409989636,
+        3.9926443329895847
+      ]
+    },
+    {
+      "backend": "onnx",
+      "batch_size": 8,
+      "images": 64,
+      "median_seconds": 2.6273312080011237,
+      "images_per_second": 24.35931937515075,
+      "timings_seconds": [
+        2.4917236249893904,
+        2.6273312080011237,
+        2.761296415992547
+      ]
+    }
+  ]
+}

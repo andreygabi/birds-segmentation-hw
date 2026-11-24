@@ -1,0 +1,14 @@
+name: bce_256
+seed: 42
+image_size: 256
+batch_size: 16
+epochs: 4
+encoder_lr: 0.0001
+decoder_lr: 0.001
+weight_decay: 0.0001
+freeze_encoder_epochs: 1
+dice_weight: 0.0
+augmentation: flip
+cache_data: true
+num_workers: 0
+amp: false

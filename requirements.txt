@@ -1,0 +1,10 @@
+torch==2.8.0
+torchvision==0.23.0
+numpy==2.3.5
+pillow==11.3.0
+matplotlib==3.10.6
+pandas==2.2.3
+PyYAML==6.0.3
+onnx==1.19.1
+onnxruntime==1.23.2
+gdown==5.2.0

@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "hardware": "Apple M3 Pro",
+  "memory_gib": 36,
+  "training_device": "MPS GPU",
+  "benchmark_device": "CPU",
+  "packages": {
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "numpy": "2.3.5",
+    "pillow": "11.3.0",
+    "matplotlib": "3.10.6",
+    "pandas": "2.2.3",
+    "PyYAML": "6.0.3",
+    "onnx": "1.19.1",
+    "onnxruntime": "1.23.2",
+    "gdown": "5.2.0"
+  },
+  "imagenet_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+}

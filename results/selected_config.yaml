@@ -1,0 +1,45 @@
+training_config:
+  name: refine_320
+  seed: 42
+  image_size: 320
+  batch_size: 12
+  epochs: 4
+  encoder_lr: 2.0e-05
+  decoder_lr: 0.0002
+  weight_decay: 0.0001
+  freeze_encoder_epochs: 0
+  dice_weight: 0.5
+  augmentation: strong
+  cache_data: true
+  num_workers: 0
+  amp: false
+selected_epoch: 4
+threshold: 0.4
+mask_rule: first_channel == 255
+preprocessing:
+  resize: aspect-preserving letterbox
+  image_interpolation: bilinear
+  mask_interpolation: nearest
+  normalization: ImageNet mean/std
+  pad_rgb:
+  - 124
+  - 116
+  - 104
+source_checkpoint: runs/refine_320/best.pt
+parent_training: 'dice_256: own train checkpoint'
+parent_config:
+  name: dice_256
+  seed: 42
+  image_size: 256
+  batch_size: 16
+  epochs: 4
+  encoder_lr: 0.0001
+  decoder_lr: 0.001
+  weight_decay: 0.0001
+  freeze_encoder_epochs: 1
+  dice_weight: 0.5
+  augmentation: flip
+  cache_data: true
+  num_workers: 0
+  amp: false
+parent_selected_epoch: 4

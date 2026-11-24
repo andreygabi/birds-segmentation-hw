@@ -1,0 +1,13 @@
+.venv/
+.runtime/
+data/
+runs/
+weights/
+predictions/
+__pycache__/
+.DS_Store
+*.pyc
+*.pt
+*.pth
+*.onnx
+*.zip

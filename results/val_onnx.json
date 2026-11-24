@@ -1,0 +1,9 @@
+{
+  "images": 1406,
+  "mean_iou": 0.8290200986421211,
+  "backend": "onnx",
+  "threshold": 0.4,
+  "batch_size": 8,
+  "threads": 6,
+  "device": "cpu"
+}

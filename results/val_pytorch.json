@@ -1,0 +1,9 @@
+{
+  "images": 1406,
+  "mean_iou": 0.8290200437451175,
+  "backend": "torch",
+  "threshold": 0.4,
+  "batch_size": 8,
+  "threads": 6,
+  "device": "cpu"
+}

@@ -1,0 +1,52 @@
+{
+  "train": {
+    "pairs": 8382,
+    "bird_folders": 200,
+    "image_modes": {
+      "RGB": 8377,
+      "L": 5
+    },
+    "mask_modes": {
+      "L": 8380,
+      "LA": 2
+    },
+    "empty_masks": 279,
+    "masks_with_intermediate_values": 8382,
+    "intermediate_pixels": 84533313,
+    "mean_foreground_fraction": 0.10488563141332541,
+    "width_range": [
+      140,
+      500
+    ],
+    "height_range": [
+      128,
+      500
+    ]
+  },
+  "val": {
+    "pairs": 1406,
+    "bird_folders": 200,
+    "image_modes": {
+      "RGB": 1406
+    },
+    "mask_modes": {
+      "L": 1406
+    },
+    "empty_masks": 49,
+    "masks_with_intermediate_values": 1406,
+    "intermediate_pixels": 14096459,
+    "mean_foreground_fraction": 0.10590819150705588,
+    "width_range": [
+      140,
+      500
+    ],
+    "height_range": [
+      139,
+      500
+    ]
+  },
+  "cross_split": {
+    "common_relative_keys": 0,
+    "common_image_hashes": 0
+  }
+}

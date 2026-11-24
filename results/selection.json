@@ -1,0 +1,16 @@
+{
+  "selected_run": "refine_320",
+  "selected_epoch": 4,
+  "threshold": 0.4,
+  "val_mean_iou": 0.8290200806675058,
+  "val_mean_iou_at_05": 0.8287835569833915,
+  "weights_sha256": "c861350a0d099bc1c33407b90ad875e378e8e4de27a5f865aee8eb5a742bda72",
+  "images": 1406,
+  "ground_truth": "first channel == 255; intermediate values are background",
+  "postprocessing": {
+    "incorrect_raw_logits_threshold_05_iou": 0.8276582350123041,
+    "incorrect_raw_logits_selected_threshold_iou": 0.8279765442300686,
+    "all_foreground_iou": 0.10590819150705588,
+    "all_background_iou": 0.03485064011379801
+  }
+}
